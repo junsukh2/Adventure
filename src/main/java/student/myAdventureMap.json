@@ -1,0 +1,200 @@
+{
+  "startingRoom": "MatthewsStreet",
+  "endingRoom": "ARC",
+  "videoUrl": "https://www.youtube.com/watch?v=wLq5hULzjXQ",
+  "rooms": [
+    {
+      "name": "MatthewsStreet",
+      "description": "You are on Matthews, outside the Siebel Center",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/1/14/Mathew_Street%2C_Liverpool_01.jpg",
+      "directions": [
+        {
+          "directionName": "East",
+          "room": "SiebelEntry"
+        },
+        {
+          "directionName": "West",
+          "room": "Ikenberry"
+        },
+        {
+          "directionName": "South",
+          "room": "ARC"
+        }
+
+      ],
+      "items": ["frontdoor key", "backdoor key", "hamburger"]
+    },
+    {
+      "name": "ARC",
+      "description": "You are at the recreation center of UIUC. Enjoy weight training!",
+      "image": "https://dailyillini.com/news-stories/2021/02/08/arc-reservations-uiuc/#modal-photo",
+      "directions": [
+        {
+          "directionName": "North",
+          "room": "MatthewsStreet"
+        },
+        {
+          "directionName": "NorthWest",
+          "room": "Ikenberry"
+        },
+        {
+          "directionName": "Down",
+          "room": "ARCbasement"
+        }
+      ],
+      "items": ["front desk", "covid test center"]
+    },
+    {
+      "name": "ARCbasement",
+      "description": "You are at the basement of ARC. Show me your performance!",
+      "image": "https://www.pinterest.com/pin/230668812134420216/",
+      "directions": [
+        {
+          "directionName": "Up",
+          "room": "ARC"
+        }
+      ],
+      "items": ["dumbbell", "bench", "machine", "locker", "rack"]
+    },
+    {
+      "name": "Ikenberry",
+      "description": "You are at the student dining and residential program building . Get Information you need!",
+      "image": "https://www.4240architecture.com/nugent-hall",
+      "directions": [
+        {
+          "directionName": "East",
+          "room": "MatthewsStreet"
+        },
+        {
+          "directionName": "South",
+          "room": "ARC"
+        },
+        {
+          "directionName": "Up",
+          "room": "IkeLibrary"
+        }
+      ],
+      "items": ["information desk", "snack", "dorm", "vending machine"]
+    },
+    {
+      "name": "IkeLibrary",
+      "description": "You are at the library of Ikenberry. Read and Study until death!",
+      "image": "https://preview.housing.illinois.edu/Resources/residence-hall-libraries/locations/ike-library",
+      "directions": [
+        {
+          "directionName": "Down",
+          "room": "Ikenberry"
+        }
+      ],
+      "items": ["book", "group study room", "computer"]
+    },
+    {
+      "name": "SiebelEntry",
+      "description": "You are in the west entry of Siebel Center. You can see the elevator, the ACM office, and hallways to the north and east.",
+      "image": "https://uihistories.library.illinois.edu/virtualtour/engineering/siebel/",
+      "directions": [
+        {
+          "directionName": "West",
+          "room": "MatthewsStreet"
+        },
+        {
+          "directionName": "Northeast",
+          "room": "AcmOffice"
+        },
+        {
+          "directionName": "North",
+          "room": "SiebelNorthHallway"
+        },
+        {
+          "directionName": "East",
+          "room": "SiebelEastHallway"
+        }
+      ],
+      "items": ["information", "motivated", "scared"]
+    },
+    {
+      "name": "AcmOffice",
+      "description": "You are in the ACM office.  There are lots of friendly ACM people.",
+      "image": "https://3acompositesusa.com/acm-divisions.html",
+      "directions": [
+        {
+          "directionName": "South",
+          "room": "SiebelEntry"
+        }
+      ],
+      "items": ["stapler", "laptop", "advisor", "paper"]
+    },
+    {
+      "name": "SiebelNorthHallway",
+      "description": "You are in the north hallway.  You can see Siebel 1112 and the door toward NCSA.",
+      "image": "https://www.google.com/search?q=acm+office+jpg&tbm=isch&ved=2ahUKEwiE3MToz5T2AhWCO80KHfPRCbwQ2-cCegQIABAA&oq=acm+office+jpg&gs_lcp=CgNpbWcQAzoECAAQGFD1AViNCWDnCmgAcAB4AIABbIgBmgOSAQM0LjGYAQCgAQGqAQtnd3Mtd2l6LWltZ8ABAQ&sclient=img&ei=H4cVYsTQIYL3tAbzo6fgCw&bih=577&biw=1280&rlz=1C1SQJL_enKR916KR916#imgrc=NJ4clPzX6xQ-yM",
+      "directions": [
+        {
+          "directionName": "South",
+          "room": "SiebelEntry"
+        },
+        {
+          "directionName": "NorthEast",
+          "room": "Siebel1112"
+        }
+      ],
+      "items": ["key to door", "water bottle"]
+    },
+    {
+      "name": "Siebel1112",
+      "description": "You are in Siebel 1112.  There is space for two code reviews in this room.",
+      "image": "https://news.illinois.edu/view/6367/880511786",
+      "directions": [
+        {
+          "directionName": "West",
+          "room": "SiebelNorthHallway"
+        }
+      ],
+      "items": ["pencil", "student", "laptop"]
+    },
+    {
+      "name": "SiebelEastHallway",
+      "description": "You are in the east hallway.  You can see Einstein Bros' Bagels and a stairway.",
+      "image": "https://www.flickr.com/photos/zaruka/9370723510",
+      "directions": [
+        {
+          "directionName": "West",
+          "room": "SiebelEntry"
+        },
+        {
+          "directionName": "South",
+          "room": "Siebel1314"
+        },
+        {
+          "directionName": "Down",
+          "room": "SiebelBasement"
+        }
+      ],
+      "items": ["brochure", "trash", "bagel", "coffee"]
+    },
+    {
+      "name": "Siebel1314",
+      "description": "You are in Siebel 1314.  There are happy CS 126 students doing a code review.",
+      "image": "https://www.flickr.com/photos/zaruka/9367942331/in/photostream/",
+      "directions": [
+        {
+          "directionName": "North",
+          "room": "SiebelEastHallway"
+        }
+      ],
+      "items": ["student", "code answer", "ta"]
+    },
+    {
+      "name": "SiebelBasement",
+      "description": "You are in the basement of Siebel.  You see tables with students working and door to computer labs.",
+      "image": "https://www.flickr.com/photos/zaruka/9356728471/in/photostream/",
+      "directions": [
+        {
+          "directionName": "Up",
+          "room": "SiebelEastHallway"
+        }
+      ],
+      "items": ["mouse", "keyboard", "monitor", "desktop"]
+    }
+  ]
+}
